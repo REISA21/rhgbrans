@@ -128,12 +128,12 @@ nav ul li a {
 /* CSS yang sudah ada tetap dipertahankan */
 
 body {
-  background-color: #a6937c;
+  background-color: #442f15;
   color: #fff;
 }
 
 header {
-  background-color: #5d4c41;
+  background-color: #33251c;
   padding: 10px 0;
 }
 
@@ -293,7 +293,7 @@ header {
   text-align: left;
   margin-top: 50px;
   padding: 20px;
-  background-color: #a97e59;
+  background-color: #533320;
   color: white;
   font-family: Arial, sans-serif;
 }
@@ -322,7 +322,7 @@ header {
 }
 
 .contact-images img {
-  max-width: 75%;
+  max-width: 90%;
   margin-top: 40px;
   border-radius: 30px;
 }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div class="container">
         <div class="logo">
@@ -14,17 +15,18 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">COURSES</a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#courses">COURSES</a></li>
+            <li><a href="#shop">SHOP</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section class="hero">
+    <!-- Home Section -->
+    <section id="home" class="hero">
       <img
         src="Salinan dari PT. RHG BEANS INDONESIA (1).jpg"
         alt="Coffee Plantation"
@@ -41,6 +43,7 @@
       </div>
     </section>
 
+    <!-- Gallery Section -->
     <section class="gallery">
       <div class="gallery-item">
         <img src="kopi1.jpg" alt="Coffee Beans" />
@@ -52,95 +55,9 @@
         <img src="tangan.jpg" alt="Coffee Harvest" />
       </div>
     </section>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RHG Beans - Products</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <img src="logo2.png" alt="RHG Beans Indonesia" />
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">COURSES</a></li>
-            <li><a href="#" class="active">SHOP</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
-    <section class="products">
-      <h2>EXPLORE OUR COFFEE PRODUCTS</h2>
-      <p>
-        We are a provider of high-quality coffee beans from Indonesia that are
-        ready to be exported all over the world. Savour the rich flavours of
-        Indonesia's fertile soil in every coffee bean and ground coffee we
-        offer.
-      </p>
-
-      <div class="product-cards">
-        <div class="card">
-          <img src="kopi merah hal2.png" alt="Arabica Coffee" />
-          <h3>Arabica Coffee</h3>
-          <a href="contact.html#contact-info"><button>CONTACT US</button></a>
-        </div>
-        <div class="card">
-          <img src="robusta2.png" alt="Robusta Coffee" />
-          <h3>Robusta Coffee</h3>
-          <a href="contact.html#contact-info"><button>CONTACT US</button></a>
-        </div>
-        <div class="card">
-          <img src="bubuk.png" alt="Local Ground Coffee" />
-          <h3>Local Ground Coffee</h3>
-          <a href="contact.html#contact-info"><button>CONTACT US</button></a>
-        </div>
-        <div class="card">
-          <img src="KYU.jpg" alt="Coffee Wood" />
-          <h3>Coffee Wood</h3>
-          <a href="contact.html#contact-info"><button>CONTACT US</button></a>
-        </div>
-      </div>
-    </section>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RHG Beans - About</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <img src="logo2.png" alt="RHG Beans Indonesia" />
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#" class="active">ABOUT</a></li>
-            <li><a href="#">COURSES</a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="about">
+    <!-- About Section -->
+    <section id="about" class="about">
       <div class="about-content">
         <img src="JCOPI.jpg" alt="Sumatra Robusta Coffee" />
         <div class="about-text">
@@ -153,39 +70,46 @@
             quality from an authentic source. Each bean is carefully selected
             and naturally processed to maintain purity and quality of flavour.
           </p>
-          <button>CONTACT US</button>
+          <a href="#contact"><button>CONTACT US</button></a>
         </div>
       </div>
     </section>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RHG Beans - Contact</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <img src="logo2.png" alt="RHG Beans Indonesia" />
-        </div>
-        <nav>
-          <ul>
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="courses.html">COURSES</a></li>
-            <li><a href="shop.html">SHOP</a></li>
-            <li><a href="contact.html" class="active">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
-    <section class="contact">
+    <!-- Shop Section -->
+    <section id="shop" class="products">
+      <h2>EXPLORE OUR COFFEE PRODUCTS</h2>
+      <p>
+        We are a provider of high-quality coffee beans from Indonesia that are
+        ready to be exported all over the world. Savour the rich flavours of
+        Indonesia's fertile soil in every coffee bean and ground coffee we
+        offer.
+      </p>
+
+      <div class="product-cards">
+        <div class="card">
+          <img src="kopi merah hal2.png" alt="Arabica Coffee" />
+          <h3>Arabica Coffee</h3>
+          <a href="#contact"><button>CONTACT US</button></a>
+        </div>
+        <div class="card">
+          <img src="robusta2.png" alt="Robusta Coffee" />
+          <h3>Robusta Coffee</h3>
+          <a href="#contact"><button>CONTACT US</button></a>
+        </div>
+        <div class="card">
+          <img src="bubuk.png" alt="Local Ground Coffee" />
+          <h3>Local Ground Coffee</h3>
+          <a href="#contact"><button>CONTACT US</button></a>
+        </div>
+        <div class="card">
+          <img src="KYU.jpg" alt="Coffee Wood" />
+          <h3>Coffee Wood</h3>
+          <a href="#contact"><button>CONTACT US</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
       <div class="container">
         <div class="contact-info">
           <p>
